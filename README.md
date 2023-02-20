@@ -1,1 +1,3 @@
 # ProjetCypress
+
+npm init -y
