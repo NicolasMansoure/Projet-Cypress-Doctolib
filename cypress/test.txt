@@ -1,0 +1,6 @@
+    it.skip("accédes au mention legal", () => {
+        cy.get('#didomi-notice-disagree-button > span').click();
+        cy.wait(5000);
+        cy.get('[href="https://doctolib.legal/B2C-legalmentions-FR"]').click();
+        cy.wait(5000);
+    })
